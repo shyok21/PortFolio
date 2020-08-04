@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(31,40,51,1) 0%, rgba(11,12,16,1) 75%, rgba(11,12,16,1) 100%);
+    overflow: hidden;
+}
+.aboutpage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+}
+.title{
+    height:12%;
+    color: #c5c6c7;
+    display: flex;
+    flex-direction:row;
+}
+
+.back a{
+    text-decoration: none;
+
+    color:#66fcf1;
+}
+.back{
+    color:#66fcf1;
+    font-size:3.5em;
+    font-weight:bold;
+    padding: 10px;
+    width:6%;
+}
+.backsign{
+    width: 65px;
+    height: 65px;
+    border-radius:50%;
+    text-align: center;
+}
+.backsign:hover{
+    background-color:#c5c6c7;
+    color: #0b0c10;
+    cursor: pointer;
+    box-shadow:#45a29e 0 0 20px;
+}
+.maintitle{
+    font-size:4.2em;
+    font-weight: bold;
+    color:#45a29e;
+    text-shadow: #c5c6c7 0 0 5px;
+}
+.content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items:center;
+    margin-left: auto;
+    margin-right:auto;
+}
+.cert1{
+    width: 300px;
+    height: 260px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cert1 a{
+    text-decoration: none;
+    color: #c5c6c7;
+}
+.cert1 a:hover{
+    font-size:1.01em;
+    color:#66fcf1;
+}
+.c1{
+    width:80%;
+    height: 450%;
+    background-image:url("../css/images/cert1.jpeg");
+    background-size: cover;
+    border:solid #66fcf1;
+    box-shadow:#66fcf1 0 0 10px;
+    border-radius: 10px;
+    
+}
+.certitle{
+    font-size: auto;
+    text-align:center;
+    margin:20px;
+    color:#c5c6c7;
+}
+.c2{
+    width:80%;
+    height: 450%;
+    background-image:url("../css/images/cert2.png");
+    background-size: cover;
+    border:solid #66fcf1;
+    box-shadow:#66fcf1 0 0 10px;
+    border-radius: 10px;
+}
+.c3{
+    width:80%;
+    height: 450%;
+    background-image:url("../css/images/Cert3.png");
+    background-size: cover;
+    border:solid #66fcf1;
+    box-shadow:#66fcf1 0 0 10px;
+    border-radius: 10px;
+}
+.c4{
+    width:80%;
+    height: 450%;
+    background-image:url("../css/images/Cert4.png");
+    background-size: cover;
+    border:solid #66fcf1;
+    box-shadow:#66fcf1 0 0 10px;
+    border-radius: 10px;
+}
