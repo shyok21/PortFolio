@@ -125,6 +125,15 @@ body{
     box-shadow:#66fcf1 0 0 10px;
     border-radius: 10px;
 }
+.c5{
+    width:80%;
+    height: 450%;
+    background-image:url("../css/images/Cert5.png");
+    background-size: cover;
+    border:solid #66fcf1;
+    box-shadow:#66fcf1 0 0 10px;
+    border-radius: 10px;
+}
 }
 @media only screen and (max-width:1024px){
     body{
@@ -241,6 +250,15 @@ body{
         width:80%;
         height: 450%;
         background-image:url("../css/images/Cert4.png");
+        background-size: cover;
+        border:solid #66fcf1;
+        box-shadow:#66fcf1 0 0 10px;
+        border-radius: 10px;
+    }
+    .c5{
+        width:80%;
+        height: 450%;
+        background-image:url("../css/images/Cert5.png");
         background-size: cover;
         border:solid #66fcf1;
         box-shadow:#66fcf1 0 0 10px;
