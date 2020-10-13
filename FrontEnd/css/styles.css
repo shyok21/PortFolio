@@ -151,6 +151,12 @@ body{
 .menu1 a{
     text-decoration: none;
 }
+.logo{
+    background-image:url("../css/images/logo.jpeg");
+    background-size: cover;
+    width:80px;
+    height: 80px;
+}
 }
 
 @media only screen and (max-width:1024px){
@@ -301,5 +307,11 @@ body{
     }
     .menu1 a{
         text-decoration: none;
+    }
+    .logo{
+        background-image:url("../css/images/logo.jpeg");
+        background-size: cover;
+        width:80px;
+        height: 80px;
     }
 }
